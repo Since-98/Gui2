@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<b lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homestyle.css" />
+    <title>tournament</title>
+  </head>
+<body>
+    
+      <h1>Season Schedule</h1> 
+   marvel studios Tournament held in collaboration with sumarai showdown:
+      will be open simultaneously worldwide! There's a collab sticker available
+      just for participating, plus avatar items and tons of other awesome prizes
+      for top ranking players! Be sure to join in and aim for the top in the
+      tournament!
+      </br>
+      Jan. 07, 2023, 18:00 (PST) -
+  </br>
+   Jan. 08, 2023, 00:00 (PST)  </br>
+   08 Jan. 2023, 02:00 (GMT) -  </br>
+   08 Jan. 2023, 08:00 (GMT)  </br>08 Jan. 2023, 12:00 (AEST) - 
+     </br>
+     08 Jan. 2023, 18:00 (AEST) *Open for 6 hours only 
+      </br>
+      Thank you for playing .
+   
+    </p>
+    <button>register</button>
+    <img src="photoa\bce9000b-5183-48dd-8e45-dba307790238-Samurai_Shodown_Haohmaru_ART_Zoom.webp" alt="">
+      </b>
+</b>
+  </b>
+  </b>
+  </b>
+  
+    <a href="form2.html" target="_blank">participate </a>
+
+    <script>
+      function register() {
+        let firstName = prompt("What is your first name?");
+        let age = prompt("How old are you?");
+        let heading = document.querySelector("h1");
+        if (age >= 18) {
+          heading.innerHTML =
+            "Hi " + firstName + "! congratulation you can now participate🎉";
+            window.location.href ="form2.html";
+        } else {
+          heading.innerHTML =
+            "Sorry " + firstName + ", you can't participate.😿";
+        }
+      }
+
+      let registerButton = document.querySelector("button");
+      registerButton.addEventListener("click", register);
+    </script>
+  </body>
+</html>

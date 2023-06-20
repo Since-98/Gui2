@@ -1,0 +1,12 @@
+body{
+  background-color: #74A892;
+  background-image: url("photoa\bce9000b-5183-48dd-8e45-dba307790238-Samurai_Shodown_Haohmaru_ART_Zoom.webp");
+}
+img {
+display: block;
+max-width: 80%;
+border-radius: 10px;
+position: relative;
+align-items: center;
+margin-left: 124px;
+    }

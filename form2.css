@@ -1,0 +1,39 @@
+body{
+  background-color: rebeccapurple;
+}
+.contact .row {
+  display: flex;
+  align-items: center;
+}
+
+.contact .row .image img {
+  width: 100%;
+}
+
+.contact .row .from {
+  width: 80%;
+  /* margin: 2rem auto; */
+}
+
+.contact .row .from form input,
+.contact .row .from form textarea {
+  padding: 0.3rem 0.8rem;
+  margin: 0.6rem 0;
+  font-size: 2rem;
+  color: var(--min-color);
+  text-transform: none;
+  border: 0.1rem solid var(--th-color);
+  width: 100%;
+  background: none;
+}
+
+.contact .row .from input[type="submit"] {
+  background: var(--sc-color);
+  border: none;
+}
+
+.contact .row .from input[type="submit"]:hover {
+  background: none;
+  color: var(--sc-color);
+  border: 0.1rem solid var(--sc-color);
+}

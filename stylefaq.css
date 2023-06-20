@@ -1,0 +1,26 @@
+body{
+  background-color: red;
+}
+
+faq-section {
+  padding: 0 20px;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  
+}
+
+.faq-question {
+  cursor: pointer;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  padding: 0 20px;
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 0 auto;
+}

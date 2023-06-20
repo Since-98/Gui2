@@ -1,0 +1,90 @@
+ <html>
+<head>
+    <title>PHP</title>
+    <link rel="stylesheet" href="stylefaq.css">
+</head>
+<body>
+  <h1>Support & technical questions</h1>
+    <div class="faq-section">
+        <div class="faq-question">
+          <h3> Where do I direct any questions I have regarding the tournament?</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>You can contact us in and we will reach out to you.</p>
+        </div>
+      </div>
+     
+      <div class="faq-section">
+        <div class="faq-question">
+          <h3>What happens if my opponent does not show up for a tournament? How long should I wait?</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>What happens if my opponent does not show up for a tournament? How long should I wait?</p>
+        </div>
+      </div>
+      <div class="faq-section">
+        <div class="faq-question">
+          <h3>What if I am having technical difficulties and cannot join the match?</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Notify your opponent immediately that you are trying to connect. If issues come up, send either a support or protest ticket to ESL through their website.</p>
+        </div>
+      </div>
+      <div class="faq-section">
+        <div class="faq-question">
+          <h3>How can I report my opponent for cheating or other types of misconduct?</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p> Go to the tournament-specific page on ESL’s website and create a protest against your opponent. Provide screenshots and evidence as necessary.</p>
+        </div>
+      </div>
+      <div class="faq-section">
+        <div class="faq-question">
+          <h3>What does it mean when I receive a “bye”?
+</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p> A “bye” means that you do not play in this round of the tournament and do not have an opponent. This means you will automatically advance to the next round. Wait for a notification for your next match once you receive a bye.</p>
+        </div>
+      </div>
+      <div class="faq-section">
+        <div class="faq-question">
+          <h3>How do I know when my next match starts?</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p> You will receive a notification when your next match is ready. It will also appear in the Events app.</p>
+        </div>
+      </div>
+      <div class="faq-section">
+        <div class="faq-question">
+          <h3>What are Marvel Infinity Comics??</h3>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p> Infinity Comics are in-continuity vertical series that are told by Marvel's top creators. Each Infinity Comic is perfectly adapted for mobile reading and make for excellent entry points too—plus, new issues from the lineup are dropped regularly throughout the</p>
+        </div>
+      </div>
+
+      <script>
+        const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(question => {
+    question.addEventListener('click', () => {
+    const answer = question.nextElementSibling;
+    const angle = question.querySelector('i');
+
+    answer.style.maxHeight = answer.style.maxHeight ? null : `${answer.scrollHeight}px`;
+    angle.classList.toggle('fa-angle-down');
+    angle.classList.toggle('fa-angle-up');
+  });
+});
+        </script>
+      </div>
+</body>
+</html>
